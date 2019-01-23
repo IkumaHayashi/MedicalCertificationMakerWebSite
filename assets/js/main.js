@@ -81,4 +81,21 @@
 
 		}
 
+		$('#sendMailForm').submit(function(){
+
+			try{
+
+				var address = "ikuma.hayashi.tech@gmail.com";
+				var subject = "健診表メーカー問い合わせ";
+				var body = $("#name").val() ? "【お名前】" + $("#name").val() + " 様" : "";
+		
+				location.href = 'mailto:' + address + '?subject=' + subject + '&body=' + body;
+			
+			}catch(e){
+				console.log(e);
+			}finally{
+				return false;
+			}
+		})
+	
 })(jQuery);

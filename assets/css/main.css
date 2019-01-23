@@ -1,4 +1,4 @@
-@import url("font-awesome.min.css");
+/*@import url("font-awesome.min.css");*/
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic");
 
 /*
@@ -27,6 +27,7 @@
 		border: 0;
 		font-size: 100%;
 		font: inherit;
+		font-family: 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
 		vertical-align: baseline;
 	}
 
@@ -110,7 +111,6 @@
 
 	body, input, select, textarea {
 		color: #777;
-		font-family: "Source Sans Pro", sans-serif;
 		font-size: 16pt;
 		font-weight: 300;
 		line-height: 1.65em;
@@ -220,7 +220,6 @@
 		background: #f8f8f8;
 		border-radius: 6px;
 		border: solid 1px #e5e5e5;
-		font-family: monospace;
 		font-size: 0.9em;
 		line-height: 1.75em;
 		margin: 0 0 2em 0;
@@ -232,7 +231,6 @@
 		background: #f8f8f8;
 		border-radius: 6px;
 		border: solid 1px #e5e5e5;
-		font-family: monospace;
 		font-size: 0.9em;
 		margin: 0 0.25em;
 		padding: 0.25em 0.65em;
