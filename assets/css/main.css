@@ -2654,13 +2654,13 @@
 	}
 
 		table tbody tr {
-			border: solid 1px #e5e5e5;
+			border: solid 1px #8ea9db;
 			border-left: 0;
 			border-right: 0;
 		}
 
 			table tbody tr:nth-child(2n + 1) {
-				background-color: #f8f8f8;
+				background-color: #ddebf7;
 			}
 
 		table td {
@@ -2669,14 +2669,23 @@
 
 		table th {
 			color: #646464;
-			font-size: 0.9em;
+			font-size: 1.2em;
 			font-weight: 300;
-			padding: 0 0.75em 0.75em 0.75em;
+			padding: 0.4em 0.4em 0.4em 0.4em;
 			text-align: left;
 		}
 
 		table thead {
+			background-color: #5b9bd5;
 			border-bottom: solid 2px #e5e5e5;
+
+		}
+
+		table thead th, table tr th {
+			background-color: #5b9bd5;
+			color: #ffffff;
+			text-align: center;
+			vertical-align: middle;
 		}
 
 		table tfoot {
@@ -3869,3 +3878,8 @@
 			}
 
 	}
+
+.gif-img{
+	max-width: 60%;
+	height: auto;
+}
